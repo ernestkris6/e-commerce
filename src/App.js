@@ -2,6 +2,9 @@ import React from 'react';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Shop from './pages/shop/Shop';
+import Cart from './pages/cart/Cart';
+
+
 
 
 function App(){
@@ -12,7 +15,7 @@ function App(){
           
             <Routes>
                 <Route path='/' element={<Shop />}/>
-                <Route path='/cart'/>
+                <Route path='/cart' element={<Cart />}/>
               
             </Routes>   
         </Router>        
