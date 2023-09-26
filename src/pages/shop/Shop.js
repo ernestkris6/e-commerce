@@ -4,6 +4,7 @@ import { Navbar } from '../../components/Navbar';
 
 
 
+
 const Shop = () => {
   return (
     <div>
