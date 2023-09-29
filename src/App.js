@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import Product from './pages/shop/Product';
+import { ShopContext } from './context/ShopContext';
 
 
 
@@ -13,14 +14,17 @@ function App(){
   return (
     <div className='App'>
 
-        <Router>
+      <ShopContextProvider>
+      <Router>
           
-            <Routes>
-                <Route path='/' element={<Shop />}/>
-                <Route path='/cart' element={<Cart />}/>
-                <Route path='./product' element={<Product />}/>
-            </Routes>   
-        </Router>        
+          <Routes>
+              <Route path='/' element={<Shop />}/>
+              <Route path='/cart' element={<Cart />}/>
+              <Route path='./product' element={<Product />}/>
+          </Routes>   
+      </Router>        
+      </ShopContextProvider>
+       
 
     </div>
   )
