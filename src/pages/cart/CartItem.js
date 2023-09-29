@@ -11,7 +11,7 @@ export const CartItem = (props) => {
 
         <div className='description'>
           <p><b>{productName}</b></p>
-          <p><b>{price}</b></p>
+          <p><b>${price}</b></p>
         </div>
     </div>
   )
