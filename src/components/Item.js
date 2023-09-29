@@ -20,7 +20,7 @@ export const Item = [
 
     {
         id : 2,
-        productImage : "Macbook Air 2022 (MI)",
+        productName : "Macbook Air 2022 (MI)",
         price : 999.0,
         productImage : product2
     },
@@ -28,7 +28,7 @@ export const Item = [
     
     {
         id : 3,
-        productImage : "Canon M50 Camera",
+        productName : "Canon M50 Camera",
         price : 1999.0,
         productImage : product3
     },
@@ -36,7 +36,7 @@ export const Item = [
     
     {
         id : 4,
-        productImage : "WLS Van Gogh Denim Jacket",
+        productName : "WLS Van Gogh Denim Jacket",
         price : 228.4,
         productImage : product4
     },
@@ -44,7 +44,7 @@ export const Item = [
     
     {
         id : 5,
-        productImage : "LED Light Strips",
+        productName : "LED Light Strips",
         price : 19.99,
         productImage : product5
     },
@@ -52,7 +52,7 @@ export const Item = [
     
     {
         id : 6,
-        productImage : "SPECTRUM LS TEE",
+        productName : "SPECTRUM LS TEE",
         price : 68.0,
         productImage : product6
     },
@@ -60,7 +60,7 @@ export const Item = [
     
     {
         id : 7,
-        productImage : "AUTO SERVICE SHIRT by GOLF WANG",
+        productName : "AUTO SERVICE SHIRT by GOLF WANG",
         price : 120.0,
         productImage : product7
     },
@@ -68,7 +68,7 @@ export const Item = [
     
     {
         id : 8,
-        productImage : "DON'T TRIP UNSTRUCTURED HAT",
+        productName : "DON'T TRIP UNSTRUCTURED HAT",
         price : 40.0,
         productImage : product8
     },
