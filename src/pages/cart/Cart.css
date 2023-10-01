@@ -43,6 +43,11 @@
 }
 
 @media screen and (max-width : 480px) {
-    
-    
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+     
 }
