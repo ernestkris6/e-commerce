@@ -13,7 +13,7 @@ const Shop = () => {
     <div>
         <Navbar/>
 
-        <div className='shop'>
+        <div className=''>
           <div className='shopTitle'>
             <h1>KrisTech Shop</h1>
           </div>
