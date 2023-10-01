@@ -53,5 +53,32 @@
     justify-content: center;
     align-items: center;
     }
-     
+
+.cartItem {
+    width: 200px;
+    height: auto;
+    display: block;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 50px;
+    }
+
+    .cartItem img {
+        width: 90px;
+        margin-left: 10px;
+    }
+
+    .cartItem .description {
+        width: 50px;
+        font-size: 20px;
+    }
+    
+    .countHandler input {
+        width: 40px;
+        text-align: center;
+        font-weight: bolder;
+        display: flex;
+}
+
 }
