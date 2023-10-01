@@ -15,7 +15,7 @@ const Shop = () => {
 
         <div className=''>
           <div className='shopTitle'>
-            <h1>KrisTech Shop</h1>
+            <h1>Kris Shop</h1>
           </div>
           <div className='products'>
             {Item.map( items=> 
